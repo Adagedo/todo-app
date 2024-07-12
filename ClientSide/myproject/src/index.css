@@ -1,0 +1,234 @@
+/* headers navigations*/
+body {
+  margin-top: 0;
+  scroll-behavior: smooth;
+}
+
+.page {
+  background-color: darkcyan;
+  width: 150px;
+  color: white;
+  padding: 50px;
+  height: 100%;
+  position: fixed;
+  contain: content;
+}
+.page a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  padding: 10px;
+  width: 200px;
+}
+.page a:hover {
+  background-color: rgba(0, 139, 139, 0.534);
+}
+.pagewrapper {
+  position: fixed;
+  width: 200px;
+  color: white;
+  position: relative;
+  margin-top: 80px;
+  contain: content;
+  contain: size;
+}
+
+/* dashboard */
+
+.userupdates {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  width: fit-content;
+  contain: content;
+  margin-left: 50px;
+}
+
+.divone {
+  background-color: darkcyan;
+  margin: 10px;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  contain: content;
+}
+.divtwo {
+  background-color: darkcyan;
+  color: white;
+  margin: 10px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+.divthree {
+  background-color: darkcyan;
+  color: white;
+  margin: 10px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+.divfour {
+  background-color: darkcyan;
+  color: white;
+  margin: 10px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+.divfive {
+  background-color: darkcyan;
+  margin: 10px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+}
+.divsix {
+  background-color: darkcyan;
+  color: white;
+  margin: 10px;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+/* layout */
+.prenav {
+  background-color: darkcyan;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  position: fixed;
+  width: 100%;
+  margin: 0px;
+  z-index: 999;
+  color: white;
+}
+
+.prenavwrapper {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+.nav-input {
+  padding: 10px;
+  width: 300px;
+  font-size: large;
+  border-radius: 20px;
+  border: 1px solid darkcyan;
+}
+.main {
+  margin-left: 100px;
+  width: 100%;
+  padding-top: 100px;
+  z-index: 1;
+}
+/* create todo*/
+.createnewtask {
+  background-color: rgba(0, 139, 139, 0.534);
+  width: fit-content;
+  text-align: center;
+  margin-left: 100px;
+  padding: 50px;
+  margin-top: 20px;
+}
+.newtaskcont {
+  text-align: center;
+}
+.title {
+  margin-top: 20px;
+}
+.description {
+  margin-top: 20px;
+}
+.date {
+  margin-top: 20px;
+}
+.newtaskinput {
+  padding: 15px;
+  width: 300px;
+}
+.savebtn {
+  margin-top: 20px;
+  padding: 15px;
+  width: 500px;
+  background-color: darkcyan;
+  border: 1px solid darkcyan;
+  border-radius: 20px;
+}
+.status-input {
+  margin-top: 20px;
+  padding: 15px;
+  width: 200px;
+}
+/* todo */
+.todocontainer {
+  margin-left: 50px;
+}
+.todo {
+  margin: 10px;
+  background-color: darkcyan;
+  padding: 10px;
+  width: 700px;
+  text-align: center;
+  color: white;
+  border-radius: 30px;
+}
+.deletebtn {
+  background-color: white;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px;
+  border: 1px solid darkcyan;
+  color: darkcyan;
+}
+
+.updatelink {
+  text-decoration: none;
+  background-color: white;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px;
+  color: darkcyan;
+}
+.pend {
+  text-align: center;
+  width: fit-content;
+  contain: content;
+}
+.pendings {
+  background-color: darkcyan;
+  padding: 20px;
+  width: 700px;
+  margin: 50px;
+  border-radius: 30px;
+  color: white;
+}
+.completed {
+  text-align: center;
+  width: fit-content;
+  contain: content;
+}
+.complete {
+  background-color: darkcyan;
+  padding: 20px;
+  width: 700px;
+  margin: 50px;
+  border-radius: 30px;
+  color: white;
+}
+.dis {
+  color: darkcyan;
+  width: fit-content;
+  contain: content;
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
